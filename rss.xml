@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QuillPhen Updates</title>
+    <description>Latest updates on QuillPhen Minecraft mods and resource packs</description>
+    <link>https://quillphen.netlify.app/</link>
+    <atom:link href="https://quillphen.netlify.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Jun 2025 00:00:00 +0000</pubDate>
+    <ttl>1440</ttl>
+    
+    <item>
+      <title>QuillPhen Minecraft Mods Collection</title>
+      <description>Discover our collection of quality-of-life Minecraft mods and resource packs with over 30.8K downloads. Featuring enchantment descriptions, X-ray packs, smart arrows, and more.</description>
+      <link>https://quillphen.netlify.app/</link>
+      <guid>https://quillphen.netlify.app/</guid>
+      <pubDate>Mon, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Enchantment Descriptions - Most Popular</title>
+      <description>Detailed enchantment tooltips for better decision making while enchanting. Available for both Java and Bedrock editions.</description>
+      <link>https://quillphen.netlify.app/enchantment-descriptions.html</link>
+      <guid>https://quillphen.netlify.app/enchantment-descriptions.html</guid>
+      <pubDate>Mon, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>X-RAY Java Edition - 18.1K Downloads</title>
+      <description>Highlights ores while making blocks transparent for easy resource location in Minecraft Java Edition.</description>
+      <link>https://quillphen.netlify.app/x-ray-java.html</link>
+      <guid>https://quillphen.netlify.app/x-ray-java.html</guid>
+      <pubDate>Mon, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+  </channel>
+</rss>

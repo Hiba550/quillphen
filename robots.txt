@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://quillphen.netlify.app/sitemap.xml
+
+# Crawl-delay (optional, can help with server load)
+Crawl-delay: 1
+
+# Disallow crawling of any potential admin or private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow crawling of all main content
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.ico
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
