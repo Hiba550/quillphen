@@ -41,10 +41,15 @@
         <lastmod>2025-06-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
+    </url>    <url>
+        <loc>https://quillphen.netlify.app/potions-description.html</loc>
+        <lastmod>2025-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://quillphen.netlify.app/potions-description.html</loc>
-        <lastmod>2025-06-10</lastmod>
+        <loc>https://quillphen.netlify.app/coordinates-hud.html</loc>
+        <lastmod>2025-06-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>

@@ -25,13 +25,20 @@
       <guid>https://quillphen.netlify.app/enchantment-descriptions.html</guid>
       <pubDate>Mon, 10 Jun 2025 00:00:00 +0000</pubDate>
     </item>
-    
-    <item>
+      <item>
       <title>X-RAY Java Edition - 18.1K Downloads</title>
       <description>Highlights ores while making blocks transparent for easy resource location in Minecraft Java Edition.</description>
       <link>https://quillphen.netlify.app/x-ray-java.html</link>
       <guid>https://quillphen.netlify.app/x-ray-java.html</guid>
       <pubDate>Mon, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Coordinates HUD - New Release</title>
+      <description>Display your coordinates on screen with a clean, customizable HUD overlay for Minecraft Java Edition.</description>
+      <link>https://quillphen.netlify.app/coordinates-hud.html</link>
+      <guid>https://quillphen.netlify.app/coordinates-hud.html</guid>
+      <pubDate>Fri, 14 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     
   </channel>
