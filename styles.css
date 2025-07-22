@@ -167,6 +167,12 @@ header h1 {
     border: 1px solid #dee2e6;
 }
 
+.ai-powered {
+    background: #e8f4fd;
+    color: #0066cc;
+    border: 1px solid #b3d9ff;
+}
+
 .popular-badge, .featured-badge {
     background: #dc3545;
     color: white;
