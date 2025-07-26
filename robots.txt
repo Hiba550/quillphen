@@ -4,7 +4,7 @@ Allow: /
 # Sitemap
 Sitemap: https://quillphen.netlify.app/sitemap.xml
 
-# Crawl-delay (optional, can help with server load)
+# Crawl-delay
 Crawl-delay: 1
 
 # Disallow crawling of any potential admin or private directories
