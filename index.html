@@ -10,7 +10,7 @@
   <meta name="description" content="Explore QuillPhen's premium Minecraft library of mods, data packs, resource packs, shaders, and Bedrock add-ons with direct official download paths, polished project pages, and responsive browsing.">
   <meta name="keywords" content="QuillPhen, Minecraft mods, Minecraft data packs, Minecraft resource packs, Bedrock add-ons, Minecraft shaders, Java Edition tools, quality of life Minecraft">
   <meta name="author" content="QuillPhen">
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://quillphen.netlify.app/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
@@ -38,65 +38,281 @@
     {
       "@context": "https://schema.org",
       "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "https://quillphen.netlify.app/#website",
-          "name": "QuillPhen",
-          "url": "https://quillphen.netlify.app/",
-          "description": "QuillPhen's Minecraft mods, data packs, resource packs, shaders, and Bedrock add-ons.",
-          "publisher": { "@id": "https://quillphen.netlify.app/#person" }
-        },
-        {
-          "@type": "Person",
-          "@id": "https://quillphen.netlify.app/#person",
-          "name": "QuillPhen",
-          "url": "https://quillphen.netlify.app/",
-          "sameAs": [
-            "https://modrinth.com/user/quillphen",
-            "https://www.curseforge.com/members/quillphen/projects"
-          ]
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://quillphen.netlify.app/#catalog",
-          "name": "QuillPhen Minecraft Project Catalog",
-          "url": "https://quillphen.netlify.app/",
-          "description": "A searchable library of 32 Minecraft releases across Java Edition and Bedrock Edition.",
-          "isPartOf": { "@id": "https://quillphen.netlify.app/#website" },
-          "about": { "@id": "https://quillphen.netlify.app/#person" }
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://quillphen.netlify.app/#faqpage",
-          "mainEntity": [
             {
-              "@type": "Question",
-              "name": "Are the download links on this site direct official sources?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. Project cards open a detail page on this site and the primary action links point to the official Modrinth listing or creator profile."
-              }
+                  "@type": "WebSite",
+                  "@id": "https://quillphen.netlify.app/#website",
+                  "name": "QuillPhen",
+                  "url": "https://quillphen.netlify.app/",
+                  "description": "QuillPhen's Minecraft mods, data packs, resource packs, shaders, and Bedrock add-ons.",
+                  "publisher": {
+                        "@id": "https://quillphen.netlify.app/#person"
+                  },
+                  "inLanguage": "en-US",
+                  "potentialAction": {
+                        "@type": "SearchAction",
+                        "target": "https://quillphen.netlify.app/?q={search_term_string}#projects",
+                        "query-input": "required name=search_term_string"
+                  }
             },
             {
-              "@type": "Question",
-              "name": "Does QuillPhen publish projects for Java and Bedrock Edition?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The catalog includes Java Edition mods, data packs, resource packs, shaders, and selected Bedrock add-ons."
-              }
+                  "@type": "Person",
+                  "@id": "https://quillphen.netlify.app/#person",
+                  "name": "QuillPhen",
+                  "url": "https://quillphen.netlify.app/",
+                  "sameAs": [
+                        "https://modrinth.com/user/quillphen",
+                        "https://www.curseforge.com/members/quillphen/projects"
+                  ]
             },
             {
-              "@type": "Question",
-              "name": "Can I search by mechanic instead of exact project name?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. The search matches titles and project descriptions so players can browse by mechanics like vein mining, dynamic lighting, and HUD overlays."
-              }
+                  "@type": "CollectionPage",
+                  "@id": "https://quillphen.netlify.app/#catalog",
+                  "name": "QuillPhen Minecraft Project Catalog",
+                  "url": "https://quillphen.netlify.app/",
+                  "description": "A searchable library of 32 Minecraft releases across Java Edition and Bedrock Edition.",
+                  "isPartOf": {
+                        "@id": "https://quillphen.netlify.app/#website"
+                  },
+                  "about": {
+                        "@id": "https://quillphen.netlify.app/#person"
+                  },
+                  "inLanguage": "en-US",
+                  "mainEntity": {
+                        "@id": "https://quillphen.netlify.app/#project-list"
+                  }
+            },
+            {
+                  "@type": "FAQPage",
+                  "@id": "https://quillphen.netlify.app/#faqpage",
+                  "mainEntity": [
+                        {
+                              "@type": "Question",
+                              "name": "Are the download links on this site direct official sources?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. Project cards open a detail page on this site and the primary action links point to the official Modrinth listing or creator profile."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Does QuillPhen publish projects for Java and Bedrock Edition?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The catalog includes Java Edition mods, data packs, resource packs, shaders, and selected Bedrock add-ons."
+                              }
+                        },
+                        {
+                              "@type": "Question",
+                              "name": "Can I search by mechanic instead of exact project name?",
+                              "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. The search matches titles and project descriptions so players can browse by mechanics like vein mining, dynamic lighting, and HUD overlays."
+                              }
+                        }
+                  ]
+            },
+            {
+                  "@type": "ItemList",
+                  "@id": "https://quillphen.netlify.app/#project-list",
+                  "name": "QuillPhen Minecraft projects",
+                  "numberOfItems": 32,
+                  "itemListElement": [
+                        {
+                              "@type": "ListItem",
+                              "position": 1,
+                              "url": "https://quillphen.netlify.app/ai-crafter.html",
+                              "name": "Minecraft AI Assistant – Google Gemini AI as your Minecraft companion"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 2,
+                              "url": "https://quillphen.netlify.app/auto-builder.html",
+                              "name": "Auto Builder – Auto-bridge as you walk over any gap"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 3,
+                              "url": "https://quillphen.netlify.app/auto-replant-crops.html",
+                              "name": "Auto Replant Crops – Harvest without replanting — crops regrow automatically"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 4,
+                              "url": "https://quillphen.netlify.app/automatic-smelt-tools.html",
+                              "name": "Automatic Smelt Tools – Craft Auto Smelt tools to smelt blocks on break"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 5,
+                              "url": "https://quillphen.netlify.app/automatic-smelt.html",
+                              "name": "Automatic Smelt – Mine blocks and get their smelted drops instantly"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 6,
+                              "url": "https://quillphen.netlify.app/better-mob-heads.html",
+                              "name": "Better Mob Heads – Unique decorative heads from every vanilla mob"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 7,
+                              "url": "https://quillphen.netlify.app/cave-vision-bedrock.html",
+                              "name": "Cave Vision Bedrock – Permanent Night Vision for Bedrock Edition"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 8,
+                              "url": "https://quillphen.netlify.app/cave-vision.html",
+                              "name": "Night Vision – Permanent Night Vision for every player"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 9,
+                              "url": "https://quillphen.netlify.app/coordinates-hud.html",
+                              "name": "Coordinates HUD – Clean, configurable coordinates and biome HUD"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 10,
+                              "url": "https://quillphen.netlify.app/custom-vein-miner.html",
+                              "name": "Custom Vein Miner – Fully configurable vein mining data pack"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 11,
+                              "url": "https://quillphen.netlify.app/dynamic-light-shader.html",
+                              "name": "Dynamic Light Shader – Shader-quality glow bloom for held light sources"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 12,
+                              "url": "https://quillphen.netlify.app/dynamic-lighting-mcpe.html",
+                              "name": "Dynamic Lighting MCPE – Held light sources illuminate Bedrock worlds"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 13,
+                              "url": "https://quillphen.netlify.app/dynamic-lighting.html",
+                              "name": "Dynamic Lighting – Held torches and lanterns actually light your way"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 14,
+                              "url": "https://quillphen.netlify.app/enchantment-descriptions.html",
+                              "name": "Enchantment Descriptions – Know exactly what every enchantment does"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 15,
+                              "url": "https://quillphen.netlify.app/explosive-arrow.html",
+                              "name": "TNT Arrow – Explosive arrows that detonate on impact"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 16,
+                              "url": "https://quillphen.netlify.app/glowing-ore.html",
+                              "name": "Glowing Ores – Every ore block glows with emissive light"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 18,
+                              "url": "https://quillphen.netlify.app/insight-hud.html",
+                              "name": "Insight HUD – Entity info and gear stats in a clean overlay"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 19,
+                              "url": "https://quillphen.netlify.app/mob-capture-orb.html",
+                              "name": "Mob Capture ORB – Capture, carry, and release any mob with an orb"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 20,
+                              "url": "https://quillphen.netlify.app/mob-vision.html",
+                              "name": "Mob Vision – See nearby mobs through walls with a glow effect"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 21,
+                              "url": "https://quillphen.netlify.app/ore-vein-miner.html",
+                              "name": "Ore Vein Miner – Mine entire ore veins in a single swing"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 22,
+                              "url": "https://quillphen.netlify.app/ore-veinminer-enchant.html",
+                              "name": "Ore Veinminer Enchantment – Enchant your pickaxe to clear full ore veins"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 23,
+                              "url": "https://quillphen.netlify.app/outlined-ores.html",
+                              "name": "Outlined Ores – Glowing outlines on all ore blocks for easy spotting"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 24,
+                              "url": "https://quillphen.netlify.app/potions-description.html",
+                              "name": "Potions Description – Every potion explained in plain language"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 25,
+                              "url": "https://quillphen.netlify.app/smart-arrows.html",
+                              "name": "Smart Arrows – Ricocheting and teleporting arrow mechanics"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 26,
+                              "url": "https://quillphen.netlify.app/smithing-templates-descriptions.html",
+                              "name": "Smithing Templates Descriptions – Full descriptions on every smithing template"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 27,
+                              "url": "https://quillphen.netlify.app/stackable-item.html",
+                              "name": "Stackable Item – Stack potions, saddles, totems, and more"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 28,
+                              "url": "https://quillphen.netlify.app/tree-vein-miner.html",
+                              "name": "Tree Vein Miner – Fell entire trees with a single crouched break"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 29,
+                              "url": "https://quillphen.netlify.app/tree-veinminer-enchant.html",
+                              "name": "Tree Veinminer Enchantment – Enchant your axe to fell whole trees at once"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 30,
+                              "url": "https://quillphen.netlify.app/vein-miner-preview.html",
+                              "name": "Vein Miner & Preview – Vein mining with a real-time visual preview"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 31,
+                              "url": "https://quillphen.netlify.app/vein-miner.html",
+                              "name": "VeinMiner – Combined ore and tree chain-mining in one pack"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 32,
+                              "url": "https://quillphen.netlify.app/waypoints.html",
+                              "name": "Waypoints & Teleport – Save locations and teleport between them in survival"
+                        },
+                        {
+                              "@type": "ListItem",
+                              "position": 33,
+                              "url": "https://quillphen.netlify.app/x-ray-java.html",
+                              "name": "X-RAY Java Edition – See through stone to find ores instantly"
+                        }
+                  ]
             }
-          ]
-        }
       ]
-    }
+}
   </script>
   <script src="https://pl26899422.profitablecpmratenetwork.com/78/7e/b7/787eb7d260ca9a6797a91c3a21d9929a.js"></script>
 </head>
@@ -463,7 +679,15 @@ const PROJECTS=[
 {"id":"x-ray-java","title":"X-RAY Java Edition","type":"resourcepack","edition":"java","img":QP,"dl":"","mr":"https://modrinth.com/user/quillphen","pg":"x-ray-java.html","desc":"Makes stone blocks semi-transparent and highlights all ore types for easy mining in Java Edition."},
 {"id":"dynamic-lighting-mcpe","title":"Dynamic Lighting MCPE","type":"addon","edition":"bedrock","img":QP,"dl":"","mr":"https://modrinth.com/user/quillphen","pg":"dynamic-lighting-mcpe.html","desc":"Real-time dynamic lighting for Bedrock \u2014 torches, lanterns, and glowstone light up when held."}
 ];
-const state={type:'all',edition:'all',query:'',sort:'popular'};
+const allowedTypes=new Set(['all','datapack','mod','resourcepack','shader','addon']);
+const allowedEditions=new Set(['all','java','bedrock']);
+const params=new URLSearchParams(window.location.search);
+const state={
+  type:allowedTypes.has(params.get('type'))?params.get('type'):'all',
+  edition:allowedEditions.has(params.get('edition'))?params.get('edition'):'all',
+  query:(params.get('q')||'').trim().slice(0,80),
+  sort:'popular'
+};
 function parseDownloads(value){
   if(!value) return 0;
   const clean=value.toString().trim().toLowerCase().replace(/,/g,'');
@@ -568,11 +792,21 @@ function render(){
 </div></article>`).join('');
   g.removeAttribute('aria-busy');
 }
+function syncFilterUrl(){
+  const nextParams=new URLSearchParams();
+  if(state.type!=='all') nextParams.set('type',state.type);
+  if(state.edition!=='all') nextParams.set('edition',state.edition);
+  if(state.query) nextParams.set('q',state.query);
+  const query=nextParams.toString();
+  const nextUrl=query ? `${location.pathname}?${query}#projects` : location.pathname;
+  history.replaceState(null,'',nextUrl);
+}
 function applyFilters(next){
   if(next.type!==undefined) state.type=next.type;
   if(next.edition!==undefined) state.edition=next.edition;
   if(next.query!==undefined) state.query=next.query;
   if(next.sort!==undefined) state.sort=next.sort;
+  syncFilterUrl();
   document.getElementById('search').value=state.query;
   document.getElementById('sort').value=state.sort;
   updateFilterButtons();
@@ -613,6 +847,8 @@ if('IntersectionObserver' in window){
 }else{
   revealItems.forEach(item=>item.classList.add('is-visible'));
 }
+document.getElementById('search').value=state.query;
+document.getElementById('sort').value=state.sort;
 updateFilterButtons();
 render();
 </script>

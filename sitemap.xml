@@ -1,168 +1,333 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://quillphen.netlify.app/index.html</loc>
+    <loc>https://quillphen.netlify.app/</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/tree-vein-miner.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/ore-vein-miner.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/vein-miner.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/cave-vision.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/enchantment-descriptions.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/vein-miner-preview.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/glowing-ore.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/dynamic-lighting.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/tree-veinminer-enchant.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/explosive-arrow.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/potions-description.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/dynamic-light-shader.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/auto-builder.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/outlined-ores.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/mob-capture-orb.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/auto-replant-crops.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/ore-veinminer-enchant.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/coordinates-hud.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>QuillPhen | Minecraft Mods, Data Packs, Resource Packs &amp; Bedrock Add-ons</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://quillphen.netlify.app/ai-crafter.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Minecraft AI Assistant – Google Gemini AI as your Minecraft companion | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://quillphen.netlify.app/mob-vision.html</loc>
+    <loc>https://quillphen.netlify.app/auto-builder.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Auto Builder – Auto-bridge as you walk over any gap | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://quillphen.netlify.app/waypoints.html</loc>
+    <loc>https://quillphen.netlify.app/auto-replant-crops.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/insight-hud.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/smithing-templates-descriptions.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/stackable-item.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/smart-arrows.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/automatic-smelt.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quillphen.netlify.app/custom-vein-miner.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Auto Replant Crops – Harvest without replanting — crops regrow automatically | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://quillphen.netlify.app/automatic-smelt-tools.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Automatic Smelt Tools – Craft Auto Smelt tools to smelt blocks on break | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/automatic-smelt.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Automatic Smelt – Mine blocks and get their smelted drops instantly | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://quillphen.netlify.app/better-mob-heads.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Better Mob Heads – Unique decorative heads from every vanilla mob | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://quillphen.netlify.app/cave-vision-bedrock.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Cave Vision Bedrock – Permanent Night Vision for Bedrock Edition | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://quillphen.netlify.app/x-ray-java.html</loc>
+    <loc>https://quillphen.netlify.app/cave-vision.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Night Vision – Permanent Night Vision for every player | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/coordinates-hud.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Coordinates HUD – Clean, configurable coordinates and biome HUD | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/custom-vein-miner.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Custom Vein Miner – Fully configurable vein mining data pack | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/dynamic-light-shader.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Dynamic Light Shader – Shader-quality glow bloom for held light sources | QuillPhen</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://quillphen.netlify.app/dynamic-lighting-mcpe.html</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Dynamic Lighting MCPE – Held light sources illuminate Bedrock worlds | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/dynamic-lighting.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Dynamic Lighting – Held torches and lanterns actually light your way | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/enchantment-descriptions.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Enchantment Descriptions – Know exactly what every enchantment does | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/explosive-arrow.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>TNT Arrow – Explosive arrows that detonate on impact | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/glowing-ore.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Glowing Ores – Every ore block glows with emissive light | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/insight-hud.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Insight HUD – Entity info and gear stats in a clean overlay | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/mob-capture-orb.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Mob Capture ORB – Capture, carry, and release any mob with an orb | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/mob-vision.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Mob Vision – See nearby mobs through walls with a glow effect | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/ore-vein-miner.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Ore Vein Miner – Mine entire ore veins in a single swing | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/ore-veinminer-enchant.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Ore Veinminer Enchantment – Enchant your pickaxe to clear full ore veins | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/outlined-ores.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Outlined Ores – Glowing outlines on all ore blocks for easy spotting | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/potions-description.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Potions Description – Every potion explained in plain language | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/smart-arrows.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Smart Arrows – Ricocheting and teleporting arrow mechanics | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/smithing-templates-descriptions.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Smithing Templates Descriptions – Full descriptions on every smithing template | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/stackable-item.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Stackable Item – Stack potions, saddles, totems, and more | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/tree-vein-miner.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Tree Vein Miner – Fell entire trees with a single crouched break | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/tree-veinminer-enchant.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Tree Veinminer Enchantment – Enchant your axe to fell whole trees at once | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/vein-miner-preview.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Vein Miner &amp; Preview – Vein mining with a real-time visual preview | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/vein-miner.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>VeinMiner – Combined ore and tree chain-mining in one pack | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/waypoints.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>Waypoints &amp; Teleport – Save locations and teleport between them in survival | QuillPhen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://quillphen.netlify.app/x-ray-java.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.modrinth.com/data/MGf2bGd9/2719043ab9e48b7b4913986c96b2d5edbcffce7f_96.webp</image:loc>
+      <image:title>X-RAY Java Edition – See through stone to find ores instantly | QuillPhen</image:title>
+    </image:image>
   </url>
 </urlset>
