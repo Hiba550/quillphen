@@ -1,18 +1,26 @@
 {
-    "name": "QuillPhen - Minecraft Mods & Resource Packs",
-    "short_name": "QuillPhen",
-    "description": "Quality-of-life Minecraft mods and resource packs with 30.8K+ downloads",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#2c3e50",
-    "theme_color": "#2c3e50",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "sizes": "16x16 32x32 48x48",
-            "type": "image/x-icon"
-        }
-    ],
-    "categories": ["games", "utilities"],
-    "lang": "en-US"
+  "name": "QuillPhen - Minecraft Mods, Data Packs & Bedrock Add-ons",
+  "short_name": "QuillPhen",
+  "description": "Browse QuillPhen Minecraft mods, data packs, resource packs, shaders, and Bedrock add-ons with official download links.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2c3e50",
+  "theme_color": "#2c3e50",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": [
+    "games",
+    "utilities",
+    "entertainment"
+  ],
+  "lang": "en-US",
+  "id": "/",
+  "scope": "/",
+  "orientation": "any",
+  "dir": "ltr"
 }
